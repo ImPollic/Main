@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleção Pollic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+    <main>
+        <h1 class="textoH"> &lt/&gt Coleção de Jogos</h1>
+        <h3 class="textoH">por Apollo Borges <span>(ImPollic_)</span></h3>
+        <article class="info">Durante esse anos, desenvolvi alguns jogos quando tive tempo livre. Assim, venho desta forma apresentar uma parte desses projetos. Links serão disponibilizados posteriormente para que você possa acessá-los.</article>
+        <h2 class="textoH">Jogos Disponíveis:</h2>
+        <section class="AreaJogos">
+            <div class="Jogo Clicavel" id="PK">
+                <p class="texto-imagem">Pollic & Kaythe Adventure</p>
+                <img src="./JogosImagens/kaythe.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Pong</p>
+                <img src="./JogosImagens/pongfoto.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Space Invaders 2</p>
+                <img src="./JogosImagens/spaceinvaders.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Catch Fire</p>
+                <img src="./JogosImagens/catchfire.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Pollic Chess</p>
+                <img src="./JogosImagens/pollichess.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Snowman: Ice Collector</p>
+                <img src="./JogosImagens/snowman.png" class="imagem">
+            </div>
+            <div class="Jogo Clicavel" id="GM">
+                <p class="texto-imagem">Goofy Mellynn</p>
+                <img src="./JogosImagens/mellynkaboom.png" class="imagem">
+            </div>
+            <div class="Jogo">
+                <p class="texto-imagem">Batalha Pokémon</p>
+                <img src="./JogosImagens/Pokemon.png" class="imagem">
+            </div>
+            <div class="Jogo Clicavel" id="NW">
+                <p class="texto-imagem">Projeto Nivellya (Java & Web)</p>
+                <img src="./JogosImagens/Nivellya.png" class="imagem">
+            </div>
+            <div class="Jogo Clicavel" id="PF">
+                <p class="texto-imagem">Projeto Fortunato</p>
+                <img src="./JogosImagens/causa.png" class="imagem">
+            </div>
+            <div class="Jogo Clicavel" id="TH">
+                <p class="texto-imagem">Personificação do Demônio Escarlate</p>
+                <img src="./JogosImagens/Touhou.png" class="imagem">
+            </div>
+            <div class="Jogo Clicavel" id="RQ">
+                <p class="texto-imagem">Revolta Química</p>
+                <img src="./JogosImagens/Quimica.png" class="imagem">
+            </div>
+        </section>
+    </main>
+</body>
+<script>
+    document.getElementById('RQ').addEventListener('click', () => {
+        window.open('https://impollic.github.io/Revolta-Quimica');
+    });
+    document.getElementById('TH').addEventListener('click', () => {
+        window.open('https://impollic.github.io/Touhou6v1');
+    });
+    document.getElementById('PF').addEventListener('click', () => {
+        window.open('https://drive.google.com/drive/folders/1FyR0kRRQm8t_wp8IhIYiWaLKETu3NBxu?usp=sharing');
+    });
+    document.getElementById('NW').addEventListener('click', () => {
+        window.open("https://replit.com/@Pollic/Nivellya-Beta-251-BugFix-Version");
+        window.location.assign('https://impollic.github.io/NivellyaWebsite');
+    });
+    document.getElementById('GM').addEventListener('click', () => {
+        window.open('https://replit.com/@Pollic/Goofy-Melynn-2?v=1');
+    });
+    document.getElementById('PK').addEventListener('click', () => {
+        window.open('https://replit.com/@Pollic/Pollic-Adventure-Revamp?v=1');
+    });
+</script>
+</html>
